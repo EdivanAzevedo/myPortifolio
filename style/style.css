@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+}
+
+.interface{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  padding: 40px 4%;
+}
+
+header > .interface{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a{
+  color: rgba(255, 255, 255, 0.466);
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover{
+  color: white;
+  transform: scale(1.05);
+
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+
+header .btn-contato button{
+  color: white;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background-color: green;
+}
+header .btn-contato button:hover{
+  box-shadow: 0px 0px 8px rgb(0, 66, 0);
+}
